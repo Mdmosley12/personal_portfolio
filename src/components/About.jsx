@@ -46,7 +46,7 @@ const About = () => {
         develop my skills and experiences.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-3 justify-center">
+      <div className="mt-20 flex flex-wrap gap-5 justify-center">
         {services.map((service, index) => {
           return <ServiceCard key={service.title} index={index} {...service} />;
         })}
