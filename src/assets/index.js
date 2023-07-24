@@ -21,7 +21,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import nextjs from "./tech/nextjs.svg";
-import express from "./tech/express.svg";
+import express from "./tech/nodejs.png";
 import mysql from "./tech/mysql.svg";
 import psql from "./tech/psql.svg";
 
