@@ -50,7 +50,7 @@ const Tech = () => {
           {technologies.map((technology) => {
             return (
               <div key={technology.name} className="flex flex-col items-center">
-                <div className="w-32 h-32 flex flex-col items-center justify-center bg-gray-300 rounded-r-full rounded-l-full mb-2 shadow-inner">
+                <div className="w-32 h-32 ball flex flex-col items-center justify-center">
                   <img src={technology.icon} className="w-20 h-20" />
                 </div>
                 <p className="text-[#dfd9ff] font-bold lg:text-[25px] sm:text-[26px] xs:text-[20px] text-[20px] lg:leading-[40px]">
